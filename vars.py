@@ -3,13 +3,16 @@ b="#############\n"
 
 
 _v=vars()
+
+
 _a=dict(_v)
+
 counter=0
 for _b in _a:
     if len(_b)>0:
-        _c=_b[0]
         
-        if _c[0:1]!="_":
+        
+        if _b[0:1]!="_":
             print(_b+"#",end="")
             print(_a[_b])
     counter=counter+1
