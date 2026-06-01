@@ -1,10 +1,10 @@
 a=10
 b=11
-v=vars
 
-v=vars()
-a=list(v)
-for b in a:
-    if len(b)>0:
-        if b[0:1]!="_":
-            print(b)
+
+_v=vars()
+_a=list(_v)
+for _b in _a:
+    if len(_b)>0:
+        if _b[0:1]!="_":
+            print(_b)
